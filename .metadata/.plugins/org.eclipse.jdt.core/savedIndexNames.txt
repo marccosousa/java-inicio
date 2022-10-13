@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Marcola\Documents\marco-dev\inicio-java-ws\.metadata\.plugins\org.eclipse.jdt.core
-2785351595.index
-2014949329.index
