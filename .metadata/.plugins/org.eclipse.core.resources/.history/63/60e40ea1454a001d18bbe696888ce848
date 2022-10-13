@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ex29_nelio {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		
+		int mat[][] = new int[n][m];
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package alturas_classes;
+
+public class Pessoa {
+	private String nome;
+	private int idade; 
+	private double altura; 
+}

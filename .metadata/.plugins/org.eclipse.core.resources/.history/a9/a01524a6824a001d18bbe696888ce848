@@ -1,0 +1,11 @@
+import java.time.LocalDate;
+
+public class instanciacao {
+
+	public static void main(String[] args) {
+		
+		LocalDate d01 = LocalDate.now();
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package vetor_classe;
+
+public class Product {
+		
+		private String name; 
+		private double price; 
+}
+
+

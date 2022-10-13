@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class ex29_nelio {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		
+		int mat[][] = new int[n][m];
+		
+		for (int i=0; i<n; i++) {
+			for(int j=0; j<m; i++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		
+		int num = sc.nextInt();
+		
+		for (int i=0; i<n; i++) {
+			for(int j=0; j<m; i++) {
+				if (mat[i][j] == num) {
+					System.out.printf("Position: %d, %d", i,j);
+				}
+			}
+		}
+		
+		
+		sc.close();
+
+	}
+
+}
