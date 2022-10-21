@@ -25,6 +25,7 @@ public class Program {
 		
 		
 		for (int i=1; i<=N; i++) {
+			System.out.printf("Product #%d data: %n", i);
 			System.out.print("Common, used or imported (c/u/i)? ");
 			char ch = sc.next().charAt(0); 
 			sc.nextLine();
